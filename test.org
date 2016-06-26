@@ -1,0 +1,38 @@
+* coding skills
+** emacs
+*** org mode
+video youtube
+**** TODO [#B]  learn to how to add links   :emacs:coding
+     DEADLINE <2015-04-01> 
+  
+*** meet emacs
+peepcode
+** algorithms
+Stanford course
+*** TODO watch Scheduling Application lection                          :algo:
+    DEADLINE: <2015-04-01 Ср.>
+
+ctrl+c ctrl+d for deadline
+ctrl+c ctrl+c add tag or check checkbox
+shift+tab to cycle through all the items
+shift + arrow on todo to change the status
+
+***** Agenda view
+ctrl + c + [  - move to agenda stack
+alt + x org-agenda
+    :Properties:
+    :Effort: 50min
+    :End:
+** optimization
+Coursera
+
+** sphere work
+| sphere  | obj_data | obj_media | map_data | score |
+|---------+----------+-----------+----------+-------|
+| hotels  | +        | +         | +        | +     |
+| sfsdfds | +        |           |          |       |
+
+** tasks for today - another view [100%]
+   - [X] score_statistics   
+   - [X] criteri_object
+
