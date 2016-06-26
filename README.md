@@ -20,8 +20,11 @@ Not now:
 #What remains after all these readings?
 
 *I tried so hard*
+
 *And got so far*
+
 *But in the end*
+
 *It doesn’t even matter*
 
 ![Fate/zero stuff](http://fc02.deviantart.net/fs70/i/2012/035/6/0/emiya_kiritsugu_by_ectoborge-d4onazc.jpg "Fate/zero stuff")
