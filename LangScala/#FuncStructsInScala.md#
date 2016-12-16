@@ -40,7 +40,7 @@ self:
 `kind projector` plugin.
 https://gist.github.com/pomadchin/60eeb514891217359bb047a4010b0c9a
 https://github.com/mpilquist/structures
-
+    :
 #FSiS Part 2 - Applicative type class
 Functional pearls:
 https://wiki.haskell.org/Research_papers/Functional_pearls
@@ -58,3 +58,5 @@ import simulacrum._
 Also trick `map4()` could be defined via `map2(tuple2, tupl2)`.
 
 Applicatvie allows combine computations in parallel, not sequentially as it is for Monad transformers.
+
+#FSis Part 3 - Monad type class

@@ -50,3 +50,7 @@ at the current cursor position.
 	C-x C-c		Quit Emacs
 	C-x 1		Delete all but one window
 	C-x u		Und
+
+* Ido mode*
+http://stackoverflow.com/questions/23741014/how-to-stop-auto-complete-from-overwriting-a-file-that-is-similarly-named
+- Once you've typed the filename you want, hit C-j instead of RET. This makes ido-mode use the filename exactly as you typed it.
