@@ -1,4 +1,5 @@
-	C-v	Move forward one screenful
+# Navigation
+    C-v	Move forward one screenful
 	M-v	Move backward one screenful
 	C-l	Clear screen and redisplay all the text,
 		 moving the text around the cursor

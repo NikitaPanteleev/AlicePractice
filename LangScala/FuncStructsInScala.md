@@ -46,15 +46,48 @@ Functional pearls:
 https://wiki.haskell.org/Research_papers/Functional_pearls
 http://www.staff.city.ac.uk/~ross/papers/Applicative.pdf
 
-```
-import simulacrum._
+    import simulacrum._
+    
+    @typeclass trait Applicative[F[_]] {
+    def pure[A](a: A): F[A]
 
-@typeclass trait Applicative[F[_]] {
-  def pure[A](a: A): F[A]
-
-  def apply[A, B](fa: F[A])(ff: F[A => B]): F[B]
-}
-```
+    def apply[A, B](fa: F[A])(ff: F[A => B]): F[B]
+    }
 Also trick `map4()` could be defined via `map2(tuple2, tupl2)`.
 
 Applicatvie allows combine computations in parallel, not sequentially as it is for Monad transformers.
+
+# FSiS Part 3 - Monad type class
+https://www.youtube.com/watch?v=VWCtLhH815M&index=3&list=PLFrwDVdSrYE6dy14XCmUtRAJuhCxuzJp0
+
+Analyse thread usage:
+```
+$ jps
+2641 Main
+2788 Jps
+$jstack 2641
+```
+
+## Monad definition
+
+    @typeclass Monad[F[_]] {self =>
+      def pure[A](a: A): F[A]
+
+      def flatMap[A, B](fa: F[A])(f: A => F[B]): F[B]
+    
+      override def apply[A, B](fa: F[A])(ff: F[A => B]): F[B] = flatMap[A => B, B](ff)((f: A => B) => map(fa)(f))
+
+      override def map[A, B](fa: F[A])(f: A => B): F[B] = flatMap(fa)(a => pure(f(a)))
+    }
+
+Laws:
+    trait MonadLaws[F[_]] {
+      def flatMapAssociativity[A, B, C](fa: F[A], f: A => F[B], g: B => F[C]) = 
+        f.flatMap(f).flatMap(g) =?= f.flatMap(a => f(a).flatMap(b => g(b)))
+
+      def leftIdentity[A, B](a: A, f: A => F[B]) = 
+        pure(a).flatMap(f) =?= f(a)
+
+      def rightIdentity[A](fa: F[A]) = 
+        fa.flatMap(identity) =?= fa
+    }
