@@ -86,3 +86,9 @@ Nodes on more powerfull nodes maintain more virtual nodes.
 num_nodes: 256 - number of virtual tokesn
 nodetool status
 snitch  - GossipingPropertyFileSnitch
+
+##Replication and consistency
+-SimpleStrategy just with number of replicas.
+-NetworkTopologyStrategy - number of replicas per datacentre
+
+`docker -it n1 noodtool status keyspace`

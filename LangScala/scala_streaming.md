@@ -36,3 +36,27 @@ Representing nondeterminism explicitly
 `type Wye[I,I2,O] = Process[Y[I,I2]#f, O]` - either I or I2 value is
 taken.
 ## Distributed execution.
+
+```
+scala> Stream(1,2,3).repeat.covary[Task]
+res5: fs2.Stream[fs2.Task,Int] = append(Segment(Emit(Chunk(1, 2, 3))), Segment(Emit(Chunk(()))).flatMap(<function1>))
+
+scala> res5.open
+res6: fs2.Pull[fs2.Task,Nothing,fs2.Handle[fs2.Task,Int]] = Pull
+```
+`Pull[Task, Nothing, Handle[Task, Int]]` - side-effect type, out type
+and type we can map over.
+
+When you `open` stream you get `Pull`, when you `close` stream you get
+back stream.
+```
+scala> res5.open.flatMap(h => Pull.output1(42)).close.runLog.unsafeRun
+res9: Vector[Int] = Vector(42)
+```
+
+## interleave
+Stream(1,2,3) interleave Stream(4,5,6) -> 1,4,2,5,3,6
+type is `type Pipe2[F[_], -I1, -I2, O] = (Stream[F. I1], Stream[F, I2])
+=> Stream[F, o]`
+
+`evalMap` for side effect work and `unsafeRunFor(5.seconds)` to run
