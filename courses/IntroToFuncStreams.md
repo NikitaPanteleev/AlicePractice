@@ -78,3 +78,24 @@ Stream.range(0, 1000).pure.through(myTake(5)).toList
 
 `s.throughPure()` - just to overcome limitation that scalac doesn't
 infer Nothing type.
+
+## Signal
+Common pattern is
+```
+val x: Task[Signal[Task, Int]]
+val a: Stream[Task, Signal[Task, Int]
+Stream.eval(x).flatMap(x => x.discrete) 
+```
+Result type of last operation is `Stream[Task, Int]`
+`.drain` - execute stream, but don't care about final value
+
+```
+Stream.eval(async.signalOf[Task, Int](0)).flatMap { s =>
+  val monitor = s.discrete.through(log("")).drain
+  val data = Stream.range(10, 20).through(randomDelays(1.second))
+  val writer = data.evalMap(d => s.set(d)
+  monitor mergeHaltBoth writer
+}
+```
+
+Queue, semaphores.
