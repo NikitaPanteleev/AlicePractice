@@ -1,5 +1,13 @@
 # This is tl;dr of lessons I learned
 
+Content for
+[IT](IT)
+- [Sicp: Algorithms, Compilers, FuncProg](IT/Sicp)
+- [ML & Deep learnin](IT/MachineAndDeepLearning)
+- [Scala: akka, streams](IT/LangScala)
+- [Java 8, jvm, spring](IT/LangJava)
+
+and other minor folders...
 
 # Year 2017. Old Guards, New Methods
 *What about the lack of education and the lack of love?*
@@ -12,7 +20,7 @@ Hard skills.
 Soft skills:
  - [Enterpreneurhip](Enterpreneurhip)
  - [Business English](BusinessEnglish)
- - [Negotiation, leadershipe, communicaiton](Negotiation)
+ - [Negotiation, leadership, communicaiton](Negotiation)
  - [Project Management](ProjectManagment)
 
 1) [Enterpreneurship specialization](Enterpreneurhip/Coursera%20Enterpreneurhip%20Specialization)
