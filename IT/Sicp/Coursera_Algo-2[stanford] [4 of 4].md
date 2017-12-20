@@ -1,5 +1,3 @@
-TODO: add support of MD to emacs.
-
 #Week 1: Intro
 ###Internet routing
 Dijkstra's algo for short path (it works in allmost linear time with nonnegative edges)

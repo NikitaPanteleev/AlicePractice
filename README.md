@@ -1,21 +1,26 @@
 # This is tl;dr of lessons I learned
 
-#Veiled Heritance: 26 june - ???
-The main thoughts:
-* OpenSource project?
-* StackOverflow grinding.
-* Develop my own riichi-mahjong server
-* Ocaml hacking, simple algorithms topcoder/rosalindInfo
-* Cracking google interview.
 
-##CS
-1. Compilers course
-2. Chris Okasaki - Purely Functional Data Structures
-3. Practical Foundations for Programming Languages (Robert Harper)
+# Year 2017. Old Guards, New Methods
+*What about the lack of education and the lack of love?*
+25 Specialization goals.
+Main fields:
+Hard skills.
+ - java testing
+ - mobile development
+ 
+Soft skills:
+ - [Enterpreneurhip](Enterpreneurhip)
+ - [Business English](BusinessEnglish)
+ - [Negotiation, leadershipe, communicaiton](Negotiation)
+ - [Project Management](ProjectManagment)
 
-Not now:
-4. Pattern-Recognition-and-Machine-Learning-Solution-Bishop
-5. http://videolectures.net/mlss09uk_cambridge/ = 20 lectures
+1) [Enterpreneurship specialization](Enterpreneurhip/Coursera%20Enterpreneurhip%20Specialization)
+
+*Done* 4 cources * 4 weeks * 2.5 hours each.
+*Pending* Capstone project.
+
+
 
 #What remains after all these readings?
 
