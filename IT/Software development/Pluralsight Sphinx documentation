@@ -1,0 +1,15 @@
+
+
+https://app.pluralsight.com/player?course=build-contribute-documentation-git-based-workflow
+
+```
+sudo easy_install pip
+sudo pip install sphinx --ignore-installed six
+sudo pip install sphinx_rtd_theme
+mkdir docs
+cd docs
+sphinx-quickstart
+```
+
+https://app.pluralsight.com/player?course=build-contribute-documentation-git-based-workflow
+# Leveraging the Power of reStructuredText Markup
