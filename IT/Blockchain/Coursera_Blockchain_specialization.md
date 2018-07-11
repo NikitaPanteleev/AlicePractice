@@ -101,7 +101,7 @@ ganache-cli 10
 https://medium.com/@k3no/ethereum-tokens-smart-contracts-80f639f5c46b
 https://medium.com/all-things-ledger/decoding-the-enigma-of-bitcoin-mining-f8b2697bc4e2
 
-# Week 2. Solidity language.
+## Week 2. Solidity language.
 
 function type `function nameOfFunction (parameters) visibilityModifier accessModifiers returns (returnParameters)`
 
@@ -112,4 +112,102 @@ https://www.youtube.com/watch?v=8UhO3IKApSg
 https://ethereumbuilders.gitbooks.io/guide/content/en/solidity_tutorials.html
 https://beta.techcrunch.com/2018/02/24/liquid-democracy-uses-blockchain/
 
+## Week 3
+
+https://soliditycookbook.com/voting/
+https://medium.com/blockchannel/the-use-of-revert-assert-and-require-in-solidity-and-the-new-revert-opcode-in-the-evm-1a3a7990e06e
+
+https://www.youtube.com/watch?v=L5Au5DY8eL4
+https://media.consensys.net/technical-introduction-to-events-and-logs-in-ethereum-a074d65dd61e
+
+## Week 4. Best Practices.
+https://consensys.github.io/smart-contract-best-practices/
+https://medium.com/@maurelian/beyond-smart-contract-best-practices-for-ux-and-interoperability-6d94d27c1e0f
+https://lightrains.com/blogs/smart-contract-best-practices-solidity
+
+# Distributed Applications
+https://www.coursera.org/learn/decentralized-apps-on-blockchain/lecture/uw5cd/decentralized-applications-dapps-blockchain-server
+
+## Week 1
+https://www.coindesk.com/information/what-is-the-difference-blockchain-and-database/
+https://www.youtube.com/watch?v=gjwr-7PgpN8&t=10s
+DEVCON1: Understanding the Ethereum Blockchain Protocol - Vitalik Buterin
+
+https://www.youtube.com/watch?v=WSN5BaCzsbo&t=5s
+Decentralizing Everything with Ethereum's Vitalik Buterin | Disrupt SF 2017
+
+https://www.cryptocompare.com/coins/guides/what-is-and-how-to-use-the-ens/
+https://www.npmjs.com/package/ethereum-ens
+
+https://blockchainhub.net/decentralized-applications-dapps/
+https://www.youtube.com/watch?v=97ufCT6lQcY TED
+
+Admin api: `admin.addPeer(), admin.nodeInfo()`.
+
+https://cointelegraph.com/news/worlds-first-dapi-decentralized-application-programming-interface
+https://github.com/ethereum/wiki/wiki/JavaScript-API
+https://gavofyork.gitbooks.io/turboethereum/content/cli_tools.html
+
+## Week 2. Truffle.
+
+https://truffleframework.com/tutorials/
+
+metamask.io
+
+## Week 3. Solidity features.
+
+memory/storage. self destruct
+https://www.youtube.com/watch?v=2cXC7YUm7Rk
+
+https://nethereum.readthedocs.io/en/latest/contracts/calling-transactions-events/
+https://media.consensys.net/technical-introduction-to-events-and-logs-in-ethereum-a074d65dd61e
+
+Oraclize
+https://ethereumdev.io/getting-data-internet-oraclize/
+https://docs.oraclize.it/
+
+
+## Week 4. 
+
+Dapp models.
+https://blockgeeks.com/guides/initial-coin-offering/
+https://www.bloomberg.com/features/2017-the-ether-thief/
+
+Standards:
+https://blog.0xproject.com/the-difference-between-app-coins-and-protocol-tokens-7281a428348c
+https://www.cnbc.com/2017/12/17/cryptokitties-makes-it-easy-to-understand-blockchain-and-genetics.html
+https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md
+https://github.com/ethereum/EIPs/blob/master/EIPS/eip-721.md
+https://github.com/ethereum/EIPs/blob/master/EIPS/eip-1.md
+
+Models
+ICO,
+Initial Token Offering - cryptoKitties
+DAO - decentralized autonomous organization
+marketplace
+Fintech
+
+Etheriim 
+
+# Blockchain platforms
+
+## Week 1
+Hyperledger. Farbic from IBM.
+
+https://www.hyperledger.org/about
+https://hyperledger.github.io/composer/latest/tutorials/tutorials.html
+https://www.youtube.com/watch?v=6rUsARjV4To
+https://hyperledger.github.io/composer/latest/tutorials/tutorials.html
+https://hyperledger-fabric.readthedocs.io/en/release-1.1/
+https://www.youtube.com/watch?v=irCIDxA5asc
+https://www.nasdaq.com/g00/article/microsoft-and-the-blockchain-msfts-big-projects-cm906244?i10c.encReferrer=aHR0cHM6Ly93d3cuY291cnNlcmEub3JnL2xlYXJuL2Jsb2NrY2hhaW4tcGxhdGZvcm1zL3N1cHBsZW1lbnQvVVkwcFEvb3B0aW9uYWwtcmVzb3VyY2VzLWxpbnV4cy1oeXBlcmxlZGdlcg%3D%3D&i10c.ua=1&i10c.dv=14
+
+hyperledger doesn't have currency and based on Practical Bysantine Fault Tolerance (vs proof of work)
+
+Farbic - permission based blockchain
+https://www.youtube.com/watch?v=CsauV-9zHAk
+http://hyperledger-fabric.readthedocs.io/en/release-1.1/arch-deep-dive.html
+https://openblockchain.readthedocs.io/en/latest/API/CoreAPI/
+
+transaction - peers - assets - chaincode - ledger - channels - identity - membership - consensu mechanisms
 
