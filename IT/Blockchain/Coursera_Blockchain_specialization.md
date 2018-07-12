@@ -191,7 +191,7 @@ Etheriim
 
 # Blockchain platforms
 
-## Week 1
+## Week 1. Hyperledger
 Hyperledger. Farbic from IBM.
 
 https://www.hyperledger.org/about
@@ -210,4 +210,45 @@ http://hyperledger-fabric.readthedocs.io/en/release-1.1/arch-deep-dive.html
 https://openblockchain.readthedocs.io/en/latest/API/CoreAPI/
 
 transaction - peers - assets - chaincode - ledger - channels - identity - membership - consensu mechanisms
+
+## Week 2. 
+
+Augur - predictions market
+Grid+ - retail of electricity
+
+## Week 3. Challenges
+Consensus. 
+proof of work 
+proof of stack - who has stack mines transaction + aging + round robin
+Practical Byzantine Fault Tolerance && async byzantine fault tolerance
+
+Scalability.
+SeqWit - segregation of transactions and signatures (softwork 2017)
+increase blocksize 
+
+in eth size depends on transaction number.
+
+offchain transactions
+
+
+Privacy & confidentiality
+
+Escrow & Multi-sig
+pay to script hash (begins with 3)
+
+## Week 4. 
+
+Interplanetary File System (IPFS)
+
+Hashgraph - Byzantine Fault Tolerance
+https://www.swirlds.com/downloads/SWIRLDS-TR-2016-02.pdf
+https://www.youtube.com/watch?v=MzWiiOLv96I
+https://hackernoon.com/demystifying-hashgraph-benefits-and-challenges-d605e5c0cee5
+https://www.forbes.com/forbes/welcome/?toURL=https://www.forbes.com/sites/jeffkauflin/2018/03/13/hedera-hashgraph-thinks-it-can-one-up-bitcoin-and-ethereum-with-faster-transactions/&refURL=https://www.coursera.org/learn/blockchain-platforms/supplement/x24u1/optional-resources-hashgraph&referrer=https://www.coursera.org/learn/blockchain-platforms/supplement/x24u1/optional-resources-hashgraph#5feba94aabcb
+https://www.youtube.com/watch?v=SPdUAw-Fpco
+What is Hashgraph and how will it replace The Blockchain!?
+
+Social
+http://fortune.com/2018/01/11/blockchain-technology-social-security-number-cybersecurity-identity-theft/
+https://www.brookings.edu/blog/techtank/2018/04/17/blockchain-and-u-s-state-governments-an-initial-assessment/
 
