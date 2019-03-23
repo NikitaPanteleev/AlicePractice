@@ -24,9 +24,14 @@ In FJ, RecursiveTask returns value on join.
 `Benign non-determinish` - outputs are different but all acceptatble (example search string)
 
 
-## Week 3
+## Week 3 Parallel loops.
 
-Parallel loops. `forall`
+`forall`
 Matrix multiplication.
 Barriers in Parallel Loops.
 Grouping: sequential & cycling.
+
+## Week 4. Data flow Synchronization and Pipelining
+
+To facilitate split-phase barrier (also known as a fuzzy barrier) we use two separate APIs from Java 
+Phaser class — ph.arrive() and ph.awaitAdvance()
