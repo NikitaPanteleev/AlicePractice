@@ -148,3 +148,26 @@ Ternary sugar is available.
 
 ## Type parameter
 `let myList: list(string)` and generally: `type coordinate('a) = ('a, 'a);`
+
+## Mutable let bindings in Reason
+```
+let foo = ref(5);
+foo := 6;
+foo^;
+```
+
+## Exceptions in Reason
+```
+exception Inputclosed(string);
+raise(inputClosed("the stream has closed"));
+```
+You can also pattern match exceptions.
+
+## Imperative Loops (for & while)
+`for (x in 8 to 2)` or `for (x in 8 downto 2)`, `while (x^ < 5)`
+
+## Modules
+`module VideoGame = {include Game; };`
+Also possible to define types
+`module type Company{}` and `module TradingCompany: Company = {}`,
+types are provided in separate file `.rei`
