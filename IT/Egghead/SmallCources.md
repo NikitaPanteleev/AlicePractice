@@ -9,4 +9,10 @@ Parallel: `Promise.all(list of promises)`
 First winner `Promise.race(list of promises)`
 
 
-# Typescript
+# Typescript.
+```
+npm install -g typescript
+```
+
+#  Jwt server.
+https://egghead.io/courses/json-web-token-jwt-authentication-with-node-js-and-auth0
