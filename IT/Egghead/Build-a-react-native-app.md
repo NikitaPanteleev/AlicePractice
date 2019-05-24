@@ -1,19 +1,27 @@
-https://egghead.io/courses/build-a-react-native-application-for-ios-and-android-from-start-to-finish
+Done: https://egghead.io/courses/build-a-react-native-application-for-ios-and-android-from-start-to-finish
+Done React navigation: https://egghead.io/courses/react-navigation-for-native-mobile-applications
 
-And idea to try:
-https://egghead.io/lessons/react-course-introduction-progressive-web-apps-in-react-with-create-react-app
 
-Saga:
-https://egghead.io/courses/async-react-with-redux-saga
+List of courses to try:
+graphql: https://egghead.io/courses/build-a-graphql-server
+blog with gatsby: https://egghead.io/courses/build-a-blog-with-react-and-markdown-using-gatsby
+animation: https://egghead.io/courses/real-world-react-native-animations
+one more app: https://egghead.io/courses/build-a-react-native-todo-application
+animate UI: https://egghead.io/courses/animate-react-native-ui-elements
+video: https://egghead.io/courses/fundamentals-of-react-native-video
+react native fundamentals: https://egghead.io/courses/react-native-fundamentals
+progressive apps: https://egghead.io/lessons/react-course-introduction-progressive-web-apps-in-react-with-create-react-app
+
+react story book: https://egghead.io/browse/tools/react-storybook
+webpack: https://egghead.io/browse/tools/webpack
+flexbox: https://egghead.io/courses/flexbox-fundamentals
+
+Ends on May 18th.
+
+
 And components:
 https://codecanyon.net/item/antiqueruby-react-native/21331228?s_rank=3&_ga=2.50842665.1642134547.1554493962-115958582.1554493962
 
-
-For redux:
-https://egghead.io/lessons/redux-introduction-to-using-the-state-adt-with-redux
-
-React navigation:
-https://egghead.io/courses/react-navigation-for-native-mobile-applications
 
 # Boilerplate setup
 https://www.npmjs.com/package/ignite-boilerplate-andross-typescript#usage
