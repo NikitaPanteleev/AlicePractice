@@ -170,4 +170,10 @@ You can also pattern match exceptions.
 `module VideoGame = {include Game; };`
 Also possible to define types
 `module type Company{}` and `module TradingCompany: Company = {}`,
-types are provided in separate file `.rei`
+types are provided in separate file `.rei`.
+
+## BucketScript
+```
+npm install -g bs-platform
+bsb -init my-new-project -theme basic-reason
+```
