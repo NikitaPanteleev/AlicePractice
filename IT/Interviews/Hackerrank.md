@@ -1,5 +1,5 @@
 https://www.youtube.com/watch?v=GKgAVjJxh9w&list=PLOuZYwbmgZWXvkghUyMLdI90IwxbNCiWK
-
+https://www.hackerrank.com/interview/interview-preparation-kit
 # 1. 7 steps
 1. Listen
 2. Example
@@ -25,6 +25,10 @@ Tech stuff & soft skills. Your accomplishments.
 # 4. How Companies Evaluate Technical Interviews
 just talk :)
 
+# 5. Hash tables
+
+# 9.  Solve 'Lonley Integer' Using Bit Manipulation
+# 10. Bit Manipulation
 
 # 11. Heaps
 Min heap - tree where element in children is greater than parent.
