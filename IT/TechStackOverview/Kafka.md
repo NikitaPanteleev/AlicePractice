@@ -26,7 +26,7 @@ machine. Partitions managed difference messages
 http://notes.stephenholiday.com/Kafka.pdf
 ## Intro & related work
 Issues with other systems:
- - most of them guarantee delivery: leads to complexiy and performance issues
+ - most of them guarantee delivery: leads to complexity and performance issues
  - not focusing on throughput (no batch api)
  - no distributed support
 
